@@ -1,0 +1,116 @@
+/* Font */
+@import url("https://use.typekit.net/aee3wze.css");
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none!important;
+}
+
+/* Variables */
+:root {
+    --primary-color: #EF135B;
+    --white: #FFFFFF;
+    --white80: rgba(255, 255, 255, 0.8);
+
+    --menu-svg: url(../img/menu-2.svg)
+}
+
+/* Componentes/Otros */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: radial-gradient(#110006, #0D0004);
+    font-family: "indivisible", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--white80);
+
+    h1 {
+        font-family: "indivisible", sans-serif;
+        font-size: 68px;
+        font-weight: 700;
+        font-style: normal;
+        color: var(--white);
+    }
+
+    strong {
+        font-weight: 900;
+        font-style: italic;
+        color: var(--primary-color);
+    }
+}
+
+/* Header */
+header {
+    min-height: 110px;
+    background: linear-gradient(to bottom, black, transparent);
+
+    .navbar-logo {
+        font-size: 42px;
+        font-weight: 900;
+        font-style: italic;
+        color: var(--primary-color);
+    }
+
+    .nav-link {
+        font-weight: 600;
+        font-style: italic;
+        color: var(--white);
+        transition: all ease-in-out 200ms;
+
+        &:hover {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+    }
+
+    .nav-menu-svg {
+        display: inline-block;
+        width: 2.5rem;
+        height: 2.5rem;
+        vertical-align: middle;
+        background-image: var(--menu-svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+}
+
+.hero {
+    position: relative;
+    height: 70vh;
+    background-image: url(../img/banner-nissans15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+
+    p {
+        font-size: 20px;
+    }
+
+    .container>div {
+        position: sticky;
+        top: 55%;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        svg {
+            color: white;
+            width: auto;
+            height: 50px;
+
+            &:nth-child(5) {
+                width: auto;
+                height: 40px;
+            }
+        }
+    }
+}
