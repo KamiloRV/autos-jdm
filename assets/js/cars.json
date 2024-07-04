@@ -1,0 +1,26 @@
+[
+    {
+        "imagen": "assets/img/cars/hondacivicek9.png",
+        "marca": "Honda",
+        "modelo": "Civic EK9",
+        "motor": "B16B 1.6 L",
+        "potencia": "185 CV",
+        "transmision": "5 vel. Manual"
+    },
+    {
+        "imagen": "assets/img/cars/nissansilvias15.png",
+        "marca": "Nissan",
+        "modelo": "Silvia S15",
+        "motor": "SR20DET Turbo 2.0 L",
+        "potencia": "250 CV",
+        "transmision": "5 vel. Manual"
+    },
+    {
+        "imagen": "assets/img/cars/mazdarx7.png",
+        "marca": "Mazda",
+        "modelo": "RX7",
+        "motor": "Wankel 2 rotores 1.3 L",
+        "potencia": "280 CV",
+        "transmision": "5 vel. Manual"
+    }
+]
